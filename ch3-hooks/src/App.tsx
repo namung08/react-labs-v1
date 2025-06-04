@@ -1,21 +1,14 @@
 import "./App.css";
-import { LikeButton } from "./labs/01-useRef/LikeButton";
-import { CounterEffect } from "./labs/02-useEffect/CounterEffect";
-import { MountLog } from "./labs/02-useEffect/MountLog";
-import { PostLoader } from "./labs/02-useEffect/PostLoader";
-import { Timer } from "./labs/02-useEffect/Timer";
-// import { FocusInput, PrevValue, Timer } from "./practice/useRef";
+import { IntervalExample } from "./labs/03-custom-hooks/IntervalExample";
+import { ManualFetchExample } from "./labs/03-custom-hooks/ManualFetchExample";
+import { ToggleExample } from "./labs/03-custom-hooks/ToggleExample";
+
 function App() {
   return (
     <>
-      {/* <FocusInput /> */}
-      {/* <PrevValue /> */}
-      {/* <Timer /> */}
-      <LikeButton />
-      <MountLog />
-      <CounterEffect />
-      <PostLoader />
-      <Timer />
+      <ToggleExample />
+      <IntervalExample />
+      <ManualFetchExample />
     </>
   );
 }
