@@ -2,13 +2,15 @@ import "./App.css";
 import { IntervalExample } from "./labs/03-custom-hooks/IntervalExample";
 import { ManualFetchExample } from "./labs/03-custom-hooks/ManualFetchExample";
 import { ToggleExample } from "./labs/03-custom-hooks/ToggleExample";
+import { QuickMathGame } from "./labs/04-summary/QuickMathGame";
 
 function App() {
   return (
     <>
-      <ToggleExample />
+      {/* <ToggleExample />
       <IntervalExample />
-      <ManualFetchExample />
+      <ManualFetchExample /> */}
+      <QuickMathGame />
     </>
   );
 }
